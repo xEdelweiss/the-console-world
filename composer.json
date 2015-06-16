@@ -1,0 +1,27 @@
+{
+  "name": "xedelweiss/the-console-world",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Sverdlikovsky",
+      "email": "xedelweiss@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "TCW\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TCW\\Tests\\": "tests/unit/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
